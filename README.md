@@ -9,7 +9,7 @@ There are many different aspects to robotics and Cya lets you explore the ones y
 There are three circuit boards in the basic Cya, the head, the hip, and the Femur-Tibula. The schematics and circuit board designs for each of these are in the Electronics folder. This allows you to examine the schematics, modify them to create your own custom version of Cya or to learn how to do electronics CAD, and even create your own circuit boards.
 
 ### Head Circuit Board
-The head circuit board is where the Cya's brains are - the microprocessor and most of the sensors reside on the head board. It is designed in KiCad, a free and open source circuit board design tool.
+The head circuit board is where the Cya's brains are - the microprocessor and most of the sensors reside on the head board. It is designed in [KiCad](https://www.kicad.org/), a free and open source circuit board design tool.
 
 ### Hip Circuit Board
 The hip circuit board controls the motors of the hip and provides feedback about the current angle of the hip. This circuit board is designed in [EasyEDA](https://easyeda.com/), another circuit board design CAD program. The Hip directory contains all the files necessary to view and modify the hip circuit board. You can also use the files as an example to help learn EasyEDA.
