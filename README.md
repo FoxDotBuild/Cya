@@ -30,6 +30,6 @@ The Arduino microcontroller family has introduced millions of people to the joy 
 Cya is capable of running the [MicroPython](https://micropython.org/) version of the python programming language. MicroPython must first be installed on Cya's ESP-32 in order to run programs that control Cya. The MicroPython directory contains instructions for installing MicroPython on Cya in addition to a number of MicroPython examples and libraries for controlling Cya.
 
 ## Documentation
-Topic specific documentation is included in the directories where it applies. More general documentation is in the DOcs directory. Additionally, be sure to look in the images directory for help in assembling Cya.
+Topic specific documentation is included in the directories where it applies. More general documentation is in the Docs directory. Additionally, be sure to look in the images directory for help in assembling Cya.
 
 
