@@ -6,7 +6,7 @@
 There are many different aspects to robotics and Cya lets you explore the ones you find most interesting. You can explore electronics, mechanical design, programming, CAD design, sensors, 3D printing, create your own anthropomorphic behaviors, or just have fun building Cya. Cya was originally created as part of a Hackaday competition; additional info can be found [here](https://hackaday.io/project/181010-choose-your-own-adventure-bot).
 
 ## Electronics
-There are three circuit boards in the basic Cya, the head, the hip, and the Femur-Tibula. The schematics and circuit board designs for each of these are in the Electronics folder. This allows you to examine the schematics, modify them to create your own custom version of Cya or to learn how to do electronics CAD, and even create your own circuit boards.
+There are three circuit boards in the basic Cya, the _head_, the _hip_, and the _femur-tibula_. The schematics and circuit board designs for each of these are in the Electronics folder. This allows you to examine the schematics, modify them to create your own custom version of Cya or to learn how to do electronics CAD, and even create your own circuit boards.
 
 ### Head Circuit Board
 The head circuit board is where the Cya's brains are - the microprocessor and most of the sensors reside on the head board. It is designed in [KiCad](https://www.kicad.org/), a free and open source circuit board design tool.
