@@ -24,7 +24,7 @@ The mechanical design was done in OnShape. The entire design is available [here]
 Cya can run using either python code or C++ Arduino style code, or actually any code that can be run on an ESP-32 processor. The two most popular programming languages for the ESP-32 are Arduino style C++ and python.
 
 ### Arduino Style C/C++
-The Arduino microcontroller family has introduced millions of people to the joy of programming in C/C++. Arduino supports an Integrated Development Environment (IDE) that makes it easy to write programs and download them to Cya. This is a good way to learn C/C++ in an embedded scenario - you can modify your program and see exactly how Cya responds. The Arduino directory contains examples and instructions for programming Cya using the Arduino IDE.
+The [Arduino](https://www.arduino.cc/) microcontroller family has introduced millions of people to the joy of programming in C/C++. Arduino supports an Integrated Development Environment (IDE) that makes it easy to write programs and download them to Cya. This is a good way to learn C/C++ in an embedded scenario - you can modify your program and see exactly how Cya responds. The Arduino directory contains examples and instructions for programming Cya using the Arduino IDE.
 
 ### Python
 Cya is capable of running the [MicroPython](https://micropython.org/) version of the python programming language. MicroPython must first be installed on Cya's ESP-32 in order to run programs that control Cya. The MicroPython directory contains instructions for installing MicroPython on Cya in addition to a number of MicroPython examples and libraries for controlling Cya.
