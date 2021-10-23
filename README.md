@@ -1,7 +1,7 @@
 <h1 align="center">Choose Your own Adventure Robot</h1>
-<div style="text-align:center">
-  <img src="https://user-images.githubusercontent.com/34964678/138538713-a7e72414-160c-42ff-8357-d56fdd33e000.jpg">
-</div>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/34964678/138538713-a7e72414-160c-42ff-8357-d56fdd33e000.jpg" />
+</p>
 
 ![Cya](https://user-images.githubusercontent.com/34964678/138538713-a7e72414-160c-42ff-8357-d56fdd33e000.jpg)
 
