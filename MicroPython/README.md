@@ -27,7 +27,7 @@ If this is the first time for MicroPython on this board erase the Flash:
 
 	$esptool.py --chip esp32 --port COMx erase_flash
   
-Now program MicroPython into the flash (Substitute the name of the file you downloaded):
+Now program MicroPython into the flash (Substitute the name of the .bin file you downloaded):
 
 	$esptool.py --chip esp32 --port COMx --baud 460800 write_flash -z 0x1000 esp32-20210811-unstable-v1.16-198-g42d1a1635.bin
   
