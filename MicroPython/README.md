@@ -1,4 +1,4 @@
-# The MicroPython library files for Cya.
+# Running MicroPython on Cya.
 ## Installing MicroPython on Cya
 If you don't have it, install Python on your PC. I chose version 3.9.6.
 Note: Wherever the following commands use pip or python you may need to use pip3 or python3 if you have python2.7 and python 3.x installed and want to use python 3.x.
