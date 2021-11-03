@@ -37,7 +37,7 @@ Now see if MicroPython is running on the MH-ET Live. Do this using REPL (Read, E
 
 	https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
   
-Connect to the COM port of the MH-ET at 115200 baud. If you hit your enter key you should see a “>>>” prompt. You might also see some additional information preceding the “>>>” prompt. When you get the prompt congratulate yourself – you now have MicroPython installed on your MH-ET Live! 
+Connect to the COM port of the MH-ET at 115200 baud. If you hit your enter key you should see a “>>>” prompt. You might also see some additional information preceding the “>>>” prompt. When you get the prompt congratulate yourself – you now have MicroPython installed on your Cya! 
 
 ## Cya Specific Micropython Library Files:
 
