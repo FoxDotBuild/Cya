@@ -41,7 +41,7 @@ Connect to the COM port of the MH-ET at 115200 baud. If you hit your enter key y
 
 ## Cya Specific Micropython Library Files:
 
-MicroPython looks for library files in the /lib directory. Any file you place in the /lib directory can then be imported using the python import command. You may need some or all of the following libraries, depending on which feature of Cya you plan to use.
+MicroPython looks for library files in the /lib directory. Any file you place in the /lib directory can then be imported using the python import command. You may need some or all of the following libraries, depending on which features of Cya you plan to use.
 
 - Setup.py  Written for Cya. Saves a lot of typing.
 - st7735.py  library for 1.44” TFT Display: https://github.com/cheungbx/st7735-esp8266-micropython
