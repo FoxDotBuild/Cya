@@ -23,7 +23,7 @@ The downloaded file will be something like: esp32-20210623-v1.16.bin
 
 Note: Whenever you encounter COMx in the following commands substitute the actual port number your MH-ET is connected to (e.g., COM5. You can find the port using Windows Device Manager and looking under Ports.
 
-If this is the first time for MicroPython on this board erase the Flash:
+If this is the first time you've installed MicroPython on this board then erase the Flash:
 
 	$esptool.py --chip esp32 --port COMx erase_flash
   
