@@ -43,12 +43,13 @@ Connect to the COM port of the MH-ET at 115200 baud. If you hit your enter key y
 
 MicroPython looks for library files in the /lib directory. Any file you place in the /lib directory can then be imported using the python import command. You may need some or all of the following libraries, depending on which features of Cya you plan to use.
 
-- Setup.py  Written for Cya. Saves a lot of typing.
-- st7735.py  library for 1.44” TFT Display: https://github.com/cheungbx/st7735-esp8266-micropython
+- start_i2c.py Configure the I2C bus. Saves some typing during inital setup.
+- setup.py Initializes all the Cya peripherals
+- st7735.py  library for 1.44” TFT Display
 - kt403A.py library for the DFPlayer Mini: https://github.com/jczic/KT403A-MP3
 - mpu6050.py library for the accelerometer
 - INMP-441 microphone driver
-- HC-SR04 Ultrasonic driver: https://github.com/rsc1975/micropython-hcsr04
+- hcsr04.py HC-SR04 Ultrasonic driver: https://github.com/rsc1975/micropython-hcsr04
 - Driver for voice recognition? Can the C/C++ from Edge Impulse be converted for Python use?
 - pca9685.py library for the pca9685 PWM board: https://github.com/adafruit/micropython-adafruit-pca9685
 - joints.py - maps pca9685 pins to joints for controlling the motors and reading the sensors.
