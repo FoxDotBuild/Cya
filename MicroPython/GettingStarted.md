@@ -16,7 +16,7 @@ To install a library using _rshell_ type the following (assumes Cya is connected
 
 You will see output something like:
 
-  Using buffer-size of 32
+	Using buffer-size of 32
   Connecting to com10 (buffer-size 32)...
   Trying to connect to REPL  connected
   Retrieving sysname ... esp32
