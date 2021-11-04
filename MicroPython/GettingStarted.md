@@ -21,7 +21,7 @@ You will see output something like:
 	Trying to connect to REPL  connected
 	Retrieving sysname ... esp32
 	Testing if ubinascii.unhexlify exists ... Y
-	Retrieving root directories ... /boot.py/ /lib/
+	Retrieving root directories ... /boot.py/
 	Setting time ... Nov 03, 2021 20:51:28
 	Evaluating board_name ... pyboard
   	Retrieving time epoch ... Jan 01, 2000
