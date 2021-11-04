@@ -38,7 +38,7 @@ Then, to install a library called _my_lib.py_ enter the following:
 	
 That's all there is to it! The next step is to test the peripherals that each library supports.
 
-## Install and test the start_i2c.py library
+## Install and Test the start_i2c.py Library for I2C Communications
 
 The start_i2c.py library configures the I2C bus on Cya so you can use the accelerometer. Once you have installed it following the procedure above you can test it from _rshell_.
 
@@ -51,8 +51,28 @@ The start_i2c.py library configures the I2C bus on Cya so you can use the accele
 	>>> i2c.scan()
 	[104]
 	
-This shows that the I2C bus is initialized and a device was found at address 104. This is the accelerometer. 104 is decimal, which is equivalent to 0x68. If you had more devices on the I2C bus they would also show up when you ran the i2c.scan() command.
+This shows that the I2C bus is initialized with clock on pin 22, data on pin 21, and a bus frequency of 400000 Hz. It also shows a device was found at address 104. This is the accelerometer. 104 is decimal, which is equivalent to hex 0x68. If you had more devices on the I2C bus they would also show up when you ran the i2c.scan() command. If you did not see the 104 after scanning the I2C bus then check your connections and solder joints for the accelerometer.
 
+## Install and Test the mpu6050.py Library for the Accelerometer
 
+The mpu6050.py library provides a variety of methods for accessing the mpu6050 accelerometer. Install it as directed above and then test it with:
+
+	Cya> repl
+	Entering REPL. Use Control-X to exit.
+	
+	>>> import mpu6050
+	>>> From machine import Pin, I2C
+	>>> scl_pin = Pin( 22 )
+	>>> sda_pin = Pin( 21 )
+	>>> i2c = I2C( 0, scl=scl_pin, sda=sda_pin )
+	>>> mpu = mpu6050.MPU6050( i2c )
+	>>> mpu.wake
+	1
+	>>> mpu.acceleration   # Display the X, Y, and Z acceleration values
+	(0.8690952, -0.06464344, -10.24)
+	
+Put Cya in a different position and re-type the _mpu.acceleration_ command. You will see different X,Y, and Z acceleration values. This shows your accelerometer is working!
+
+## Install
 
 
