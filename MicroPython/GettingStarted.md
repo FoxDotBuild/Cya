@@ -8,6 +8,10 @@ Instructions for using _ampy_ are available [here](https://pypi.org/project/adaf
 
 Instructions for using _rshell_ are available [here](https://pypi.org/project/rshell/). Note that rshell requires python3.
 
+For the rest of this duscussion we will provide _rshell_ examples, but _ampy_ is equally capable and has similar commands.
 
+
+## Install the start_i2c.py library
+The start_i2c.py library configures the I2C bus on Cya
 
 
