@@ -99,6 +99,17 @@ You should hear the first .mp3 file you put on the uSD card.
 
 ## Install and Test the pca9685.py Library for the PWM Controller
 
+The pca9685.py library provides methods to control the motors and read the position sensors in the joints. It is used by the joints.py library to do the low-level functions of joint and motor control. Install it the same way as the other libraries then test it via:
+
+	>>> From machine import Pin, I2C
+	>>> import pca9685
+	>>> scl_pin = Pin( 22 )
+	>>> sda_pin = Pin( 21 )
+	>>> i2c = I2C( 0, scl=scl_pin, sda=sda_pin )
+	>>> pwm = pca9685.PCA9685( i2c )
+	
+*** Need a way to test communication
+
 ## install and Test the joints.py Library to control Cya's Motors and Joints
 
 
