@@ -73,18 +73,18 @@ The mpu6050.py library provides a variety of methods for accessing the mpu6050 a
 	
 Put Cya in a different position and re-type the _mpu.acceleration_ command. You will see different X,Y, and Z acceleration values. This shows your accelerometer is working!
 
-## Install the st7735.py Library for the Display
+## Install and Test the st7735.py Library for the Display
 
-## Install the hcsr04.py Library for the Ultrasonic Distance Sensor
+## Install and Test the hcsr04.py Library for the Ultrasonic Distance Sensor
 
-## Install the kt403A.py Library for the DFPlayer Mini MP3 Player
+## Install and Test the kt403A.py Library for the DFPlayer Mini MP3 Player
 
-## Install the pca9685.py Library for the PWM Controller
+## Install and Test the pca9685.py Library for the PWM Controller
 
-## install the joints.py Library to control Cya's Motors and Joints
+## install and Test the joints.py Library to control Cya's Motors and Joints
 
 
-## Install the INMP441.py Library for the Microphone
+## Install and Test the INMP441.py Library for the Microphone
 
 
 
