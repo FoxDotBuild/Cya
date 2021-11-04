@@ -77,7 +77,25 @@ Put Cya in a different position and re-type the _mpu.acceleration_ command. You 
 
 ## Install and Test the hcsr04.py Library for the Ultrasonic Distance Sensor
 
+The hcsr04.py library provides a variety of methods for accessing the HC-SR04 Ultrasonic distance sensor. Install it as directed above and then test it with:
+
+	>>> import hcsr04
+	>>> dist = hcsr04.HCSR04( 32, 27 )
+	>>> dist.distance_cm()     # Get the distance in centimeters
+	3.505155
+	
+Repeat the _dist.distance_cm()_ command with your hand at varying distances from the sensor. You will be able to see the distance change.
+
 ## Install and Test the kt403A.py Library for the DFPlayer Mini MP3 Player
+
+The kt403A.py library provides a number of methods for controlling the DFPlayer Mini MP3 player. Before using it you will need to install some .mp3 files onto a uSD card and insert the uSD card into the DF Player Mini (Be sure Cya's power is off while inserting the uSD card!). The order you copy files to the uSD card determines the index number used to play them. For instance, the first file copied to the uSD is index 1, the second index 2, etc. Once you have installed the uSD card then power Cya up, connect to Cya, and in REPL enter the following:
+
+	>>> import kt403A
+	>>> mp3 = kt403A.KT403A( 1, 9, 10 )
+	>>> mp3.SetVolume( 99 )  # Set the volume to 99% of maximum
+	>>> mp3.PlaySpecific( 1 )    # Play .mp3 file #1
+
+You should hear the first .mp3 file you put on the uSD card.
 
 ## Install and Test the pca9685.py Library for the PWM Controller
 
