@@ -79,7 +79,7 @@ Put Cya in a different position and re-type the _mpu.acceleration_ command. You 
 
 ## Install the kt403A.py Library for the DFPlayer Mini MP3 Player
 
-## Install the pca9685.py Library for the PWM COntroller
+## Install the pca9685.py Library for the PWM Controller
 
 ## install the joints.py Library to control Cya's Motors and Joints
 
