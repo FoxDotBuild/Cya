@@ -46,6 +46,7 @@ MicroPython looks for library files in the /lib directory. Any file you place in
 - start_i2c.py Configure the I2C bus. Saves some typing during inital setup.
 - setup.py Initializes all the Cya peripherals
 - st7735.py  library for 1.44” TFT Display
+- sysfont.py System fonts for the TFT display
 - kt403A.py library for the DFPlayer Mini: https://github.com/jczic/KT403A-MP3
 - mpu6050.py library for the accelerometer
 - INMP-441 microphone driver
