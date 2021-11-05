@@ -55,3 +55,6 @@ MicroPython looks for library files in the /lib directory. Any file you place in
 - pca9685.py library for the pca9685 PWM board: https://github.com/adafruit/micropython-adafruit-pca9685
 - joints.py - maps pca9685 pins to joints for controlling the motors and reading the sensors.
 
+## Getting Started
+
+Once you have installed MicroPython and the necessary libraries you are ready to start using Cya's peripherals. The GettingStarted.md file provides details on testing each of the different peripherals using MicroPython.
