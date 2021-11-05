@@ -49,9 +49,9 @@ The start_i2c.py library configures the I2C bus on Cya so you can use the accele
 	>>> i2c
 	I2C(0, scl=22, sda=21, freq=400000)
 	>>> i2c.scan()
-	[104]
+	[64, 104, 112]
 	
-This shows that the I2C bus is initialized with clock on pin 22, data on pin 21, and a bus frequency of 400000 Hz. It also shows a device was found at address 104. This is the accelerometer. 104 is decimal, which is equivalent to hex 0x68. If you had more devices on the I2C bus they would also show up when you ran the i2c.scan() command. If you did not see the 104 after scanning the I2C bus then check your connections and solder joints for the accelerometer.
+This shows that the I2C bus is initialized with clock on pin 22, data on pin 21, and a bus frequency of 400000 Hz. It also shows devices were found at addresses 64, 104, amd 112 decimal. The accelerometer lives at 104 decimal, which is equivalent to hex 0x68. The addresses 64 and 112 (0x40 and 0x70) both belong to the pca9685 device. If you did not see the three addresses after scanning the I2C bus then check your connections and solder joints for the accelerometer and the pca9685.
 
 ## Install and Test the mpu6050.py Library for the Accelerometer
 
