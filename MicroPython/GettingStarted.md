@@ -101,14 +101,14 @@ You should hear the first .mp3 file you put on the uSD card.
 
 The pca9685.py library provides methods to control the motors and read the position sensors in the joints. It is used by the joints.py library to do the low-level functions of joint and motor control. Install it the same way as the other libraries then test it via:
 
-	>>> From machine import Pin, I2C
+	>>> from machine import Pin, I2C, ADC
+	>>> from start_i2c import *
 	>>> import pca9685
-	>>> scl_pin = Pin( 22 )
-	>>> sda_pin = Pin( 21 )
-	>>> i2c = I2C( 0, scl=scl_pin, sda=sda_pin )
-	>>> pwm = pca9685.PCA9685( i2c )
+	>>> pca = pca9685.PCA9685(i2c)
+	>>> i2c.readfrom_mem(0x40, 5, 1 )
+	b'\xe0'
 	
-*** Need a way to test communication
+The above code reads the all-call address from memory address 5 in the pca9685, whose i2c address is 0x40. The all-call address is 0x70, but shows up as 0xe0 because it is shifted left one bit to account for the read/write bit in i2c communications. If your pca9685 is not installed correctly you will see ENODEV errors indicating there is no device at the i2c address where the pca9685 belongs.
 
 ## install and Test the joints.py Library to control Cya's Motors and Joints
 
