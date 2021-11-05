@@ -75,6 +75,19 @@ Put Cya in a different position and re-type the _mpu.acceleration_ command. You 
 
 ## Install and Test the st7735.py Library for the Display
 
+The display requires two libraries to print text, _st7735.py_ and _sysfont.py_. It can also display .bmp files. To test the display we will use the text mode.
+
+	>>> from machine import SPI
+	>>> import st7735
+	>>> spi=SPI(2)
+	>>> tft=st7735.TFT(spi,17,aCS=16)
+	>>> tft.init_7735(tft.GREENTAB128x128)
+	>>> tft.fill(tft.BLACK)
+	>>> from sysfont import *
+	>>> tft.text((0,0),'Hello World!', tft.RED, sysfont)
+
+You should see the words "Hello World!" printed in red in the upper left corner of the display.
+
 ## Install and Test the hcsr04.py Library for the Ultrasonic Distance Sensor
 
 The hcsr04.py library provides a variety of methods for accessing the HC-SR04 Ultrasonic distance sensor. Install it as directed above and then test it with:
