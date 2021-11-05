@@ -57,4 +57,4 @@ MicroPython looks for library files in the /lib directory. Any file you place in
 
 ## Getting Started
 
-Once you have installed MicroPython and the necessary libraries you are ready to start using Cya's peripherals. The GettingStarted.md file provides details on testing each of the different peripherals using MicroPython.
+Once you have installed MicroPython and downloaded the necessary libraries to your PC you are ready to install the libraries onto Cya and start using Cya's peripherals. The GettingStarted.md file explains how to load the libraries into Cya's memory and begin testing each of the different peripherals using MicroPython.
