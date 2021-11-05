@@ -101,7 +101,7 @@ You should hear the first .mp3 file you put on the uSD card.
 
 The pca9685.py library provides methods to control the motors and read the position sensors in the joints. It is used by the joints.py library to do the low-level functions of joint and motor control. Install it the same way as the other libraries then test it via:
 
-	>>> from machine import Pin, I2C, ADC
+	>>> from machine import Pin, I2C
 	>>> from start_i2c import *
 	>>> import pca9685
 	>>> pca = pca9685.PCA9685(i2c)
