@@ -72,6 +72,7 @@ The mpu6050.py library provides a variety of methods for accessing the mpu6050 a
 	(0.8690952, -0.06464344, -10.24)
 	
 Put Cya in a different position and re-type the _mpu.acceleration_ command. You will see different X,Y, and Z acceleration values. This shows your accelerometer is working!
+Once you have installed the mpu6050.py library you can also install the TestMPU.py library which relies on MPU6050.py. Then you can simply import TestMPU to check the accelerometer readings at 1 second intervals.
 
 ## Install and Test the st7735.py Library for the Display
 
