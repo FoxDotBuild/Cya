@@ -32,7 +32,7 @@ FIrst, we need to create the lib directory:
 
 	Cya> mkdir /pyboard/lib
 	
-Note that "/pyboard/" is generic and referes to ANY MicroPython board connected through rshell. The leading slash is required. Next, to install a library called _my_lib.py_ enter the following:
+Note that "/pyboard/" is generic and refers to ANY MicroPython board connected through rshell. The leading slash is required. Next, to install a library called _my_lib.py_ enter the following:
 
 	cp my_lib.py /pyboard/lib/my_lib.py
 	
