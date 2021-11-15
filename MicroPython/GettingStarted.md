@@ -1,6 +1,6 @@
 # Getting Started with MicroPython on Cya
 
-This tutorial assumes you have assembled your Cya and installed MicroPython as described in the README.md file.
+This tutorial assumes you have assembled your Cya and installed MicroPython as described in the MicroPython README.md file.
 
 The next step is to install the library files and test that each peripheral device is accessible. There are multiple options for communicating between your PC and MicroPython to install the libraries. The two most popular are _ampy_ and _rshell_.
 
